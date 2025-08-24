@@ -152,12 +152,12 @@ background-color: white;
 font-size: 30px;
 box-shadow: 2px 3px 5px black;
 width: fit-content;
-left:40%;
+left:46%;
 text-align: center;
 top:0;
 padding:5px 10px;
 }
-.fremork .box h3::before{
+.fremork  h3::before{
 content:"";
 position: absolute;
 background-color: blue;
@@ -168,7 +168,7 @@ margin-bottom: -20px;
 transform: translateY(50%);
 margin-left: -80px;
 }
-.fremork .box h3::after{
+.fremork h3::after{
 content:"";
 position: absolute;
 background-color: blue;
@@ -176,8 +176,8 @@ width: 15px;
 height:15px;
 border-radius: 50%;
 margin-bottom: -20px;
-transform: translateY(50%);
-margin-left: 80px;
+transform: translateY(60%);
+margin-left: 75px;
 }
 .fremork .fre-ser .box{
 display:grid;
@@ -201,12 +201,12 @@ font-size: 15px;
 font-weight: bold;
 margin-right: 50px;
 }
-/*.fremork .fre-ser .uamber ul .one{
+.fremork .fre-ser .uamber ul .one{
 margin-left:-105px;
 }
 .fremork .fre-ser .uamber ul .two{
 
-}*/
+}
 /*.fremork .fre-ser .uamber ul li::before{
 content:"";
 position: absolute;
@@ -214,7 +214,7 @@ background-color: rgb(188, 227, 227);
 width: 215px;
 height: 15px;
 margin-top: -20px;
-}*/
+} */
 .fremork .fre-ser .box img{
 width:100%;
 max-width: 100%;
@@ -254,7 +254,7 @@ border-bottom: none;
 }
 @media(max-width:767px){
 .fremork h3{
-left:67px;
+left:165px;
 
   }
 }
